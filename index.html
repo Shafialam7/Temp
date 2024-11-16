@@ -1,20 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>QR Code Generator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="main">
-      <h1>Text to QR code</h1>
-      <input type="text" name="" id="input" autocomplete="off"/>
-      <button type="submit" onclick="func()" id="submit">
-        Generate QR
-      </button>
-      <img src="" alt="" id="img">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            background: #841e31;
+            color: #fff;
+        }
+        .container{
+            margin-top: 10%;
+            margin-left: 27%;
+            position: relative;
+            width: 600px;
+            height: 400px;
+            background: #fff;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            background-color: #fff;
+            color: #971338;
+            margin-top: 0%;
+            width: 70%;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button{
+            width: 30%;
+            height: 12%;
+            border:solid white;
+            border-radius: 15px;
+        }
+        button a{
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        @media screen and (max-width: 600px) {
+            .container{
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Merhaba Güzelim Patronumdan Ve Kocandan Bir Mesaj Var ❤️
+        </h1>
+        <button><a href="index2.html"><p>Click Me</p></a></button>
     </div>
-    <script src="app.js"></script>
-  </body>
+</body>
 </html>
